@@ -16,7 +16,7 @@ class NewBoxForm extends Component {  // ...
       }
     
     handleChange(evt) {
-      this.setState({ [evt.target.name]: evt.target.value });
+      this.setState({[evt.target.name]: evt.target.value });
     }
   
     render() {
